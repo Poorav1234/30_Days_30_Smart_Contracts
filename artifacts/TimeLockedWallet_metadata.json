@@ -4,7 +4,71 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_unlockTime",
+						"type": "uint256"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "timeleft",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "wallets",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "unlockTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +82,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Smart Contracts/TimeLockedWallet_9.sol": "TimeLockedWallet"
+			"Smart Contracts/9_TimeLockedWallet.sol": "TimeLockedWallet"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -32,12 +96,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Smart Contracts/TimeLockedWallet_9.sol": {
-			"keccak256": "0xd39f48a44c52cbb2053f7dc49900698194852234edfc795ae67dec5d6fa3037b",
+		"Smart Contracts/9_TimeLockedWallet.sol": {
+			"keccak256": "0x2a4cc4362ed615d8c614cbf3428203691badb99bb639b3a8916b2d1ba83aa05e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://970a8289825df7f9acdff29a7b7d7c75d470b6ca0fea2cc19fe3007696f8a7be",
-				"dweb:/ipfs/QmP3cRF6VZUARHfZvJwv389WfLgBkKdXK4nfwzWUQdPjvw"
+				"bzz-raw://e057f15541a7e247f0cd055c1d3e52b7cbce9c80f821e88587a37948fae74eb5",
+				"dweb:/ipfs/QmWKazA3RzvTZkWgmVybx2X7CJcSJ1Lo2emDbHCs82ToFJ"
 			]
 		}
 	},
