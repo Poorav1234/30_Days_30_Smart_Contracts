@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Smart Contracts/11_DecentralizedMarketplace.sol": "DecentralizedMarketplace"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Smart Contracts/11_DecentralizedMarketplace.sol": {
+			"keccak256": "0xa4bf52fa27a2652094677e2931c2ed661c7bb99ecdf1d0068ed490ffaf04fd9c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d25a6549eb4e0ffe3a18136a67c11d766b3117ee2a88aa7256bbabf777cd34b",
+				"dweb:/ipfs/QmT5jScGR8crjChteh9q7ppiXcd2p9eqxV3XfaPwkQrdG5"
+			]
+		}
+	},
+	"version": 1
+}
