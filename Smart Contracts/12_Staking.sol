@@ -1,12 +1,12 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.1/contracts/token/ERC20/IERC20.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v5.0.1/contracts/utils/ReentrancyGuard.sol";
 
 contract Staking is ReentrancyGuard{
-    IERC20 public stakingToken;
-    IERC20 public rewardToken;
+    IERC20 public stakingToken; // 0xd8b934580fcE35a11B58C6D73aDeE468a2833fa8 STK
+    IERC20 public rewardToken; // 0xf8e81D47203A594245E36C48e151709F0C19fBe8 RWD
 
     uint256 public rewardRate;
     uint256 public totalStaked;
