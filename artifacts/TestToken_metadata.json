@@ -6,23 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "symbol",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "supply",
-						"type": "uint256"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -438,7 +422,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Smart Contracts/MiniDEX.sol": "TestToken"
+			"Smart Contracts/TestToken.sol": "TestToken"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -492,12 +476,12 @@
 				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
 			]
 		},
-		"Smart Contracts/MiniDEX.sol": {
-			"keccak256": "0x219fd6b312b3f45112b65bef971ef77d9f61cd112a6de2f2d5a149e7982f9722",
+		"Smart Contracts/TestToken.sol": {
+			"keccak256": "0x07a6d191bf4fd206e8f233673442651b2d015716d13b4df153e0ba9354bcc5b7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ae10ca121fdac3fda05f56b94fc861fa7ed77b6e182d64c52b0fe4a42166679a",
-				"dweb:/ipfs/QmdVtPYuH7T2hQeR1ERo2UwH62XNduwufRg3VHcY68YRsM"
+				"bzz-raw://6d75586fef29779068fe2c49ce7d53108ff0b570e5b69cbb3a843bc368f7ddf7",
+				"dweb:/ipfs/QmcftCZoUQ6SGpG5Bb7X2SEy5QkXuGiMvRVw5tdRvAv4yH"
 			]
 		}
 	},

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Smart Contracts/16_NFTMarketPlace.sol": "NFTMarketPlace"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Smart Contracts/16_NFTMarketPlace.sol": {
+			"keccak256": "0x9710203ba98ba8ccb7fba83ae92495361c1cd63798d305e2d4b0ba5d07a1ceff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b06706e8e3dfe5eed02e6f66f6ad8ec1b72fbf92ec2e5d3406ba1e55780774a2",
+				"dweb:/ipfs/Qmct56on4dfD1WcQTLLJ1wo9qqgPF78Y3fwf3YRKNxBCB5"
+			]
+		}
+	},
+	"version": 1
+}
