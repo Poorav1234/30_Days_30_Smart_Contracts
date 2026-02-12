@@ -13,7 +13,6 @@ contract CrossChainBridge {
     event Deposit(address indexed user, uint256 amount, uint256 targetChainId, bytes targetAddress);
     event Withdrawal(address indexed user, uint256 amount, uint256 sourceChainId);
 
-    // Track processed cross-chain withdrawals to prevent double spending
     mapping(bytes32 => bool) public processedTransfers;
 
     constructor(address _token) {
@@ -27,7 +26,6 @@ contract CrossChainBridge {
         emit Deposit(msg.sender, amount, targetChainId, targetAddress);
     }
 
-    // Withdraw tokens from the bridge (called after validator confirms deposit on other chain)
     function withdraw(address user, uint256 amount, uint256 sourceChainId, bytes32 txHash) external {
         require(msg.sender == admin, "Only admin can withdraw");
         require(!processedTransfers[txHash], "Transfer already processed");
@@ -36,7 +34,6 @@ contract CrossChainBridge {
         emit Withdrawal(user, amount, sourceChainId);
     }
 
-    // Optional: Admin can update the token contract if needed
     function updateToken(address _token) external {
         require(msg.sender == admin, "Only admin");
         token = IERC20(_token);
