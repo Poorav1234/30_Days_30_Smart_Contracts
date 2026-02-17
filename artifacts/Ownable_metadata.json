@@ -6,55 +6,47 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
+						"indexed": true,
 						"internalType": "address",
-						"name": "to",
+						"name": "oldOwner",
 						"type": "address"
 					},
 					{
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
 					}
 				],
-				"name": "transfer",
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "address",
 						"name": "",
-						"type": "bool"
+						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "from",
+						"name": "newOwner",
 						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "value",
-						"type": "uint256"
 					}
 				],
-				"name": "transferFrom",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
+				"name": "transferOwnership",
+				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -67,13 +59,12 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
-			"notice": "Layer-2 Rollup Simulation (Advanced / Recruiter-Level) ------------------------------------------------------ Optimistic rollup-style L1 contract that:  - Escrows ETH/ERC20 deposits  - Lets a Sequencer submit batches (txDataHash + newStateRoot + withdrawalRoot)  - Has a challenge window for optimistic finality  - Supports disputes via an external FraudProofVerifier  - Allows withdrawals after finalization using Merkle proofs",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"Smart Contracts/26_OptimisticL2RollUps.sol": "IERC20"
+			"Smart Contracts/26_OptimisticL2RollUps.sol": "Ownable"
 		},
 		"evmVersion": "prague",
 		"libraries": {},

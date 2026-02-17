@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Smart Contracts/26_OptimisticL2RollUps.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Smart Contracts/26_OptimisticL2RollUps.sol": {
+			"keccak256": "0x237849936a7f8ddf8d1e7cfdf8d1e2ed2b4cbbccdc527bc14d0db6bbfca28e94",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ffecd61b22c48a71d70c13174bb91a23b0368468556e23711c79b12524218fbf",
+				"dweb:/ipfs/QmTBrm9Vn5mEYdasB2G5Vgq32jRgKFGzwDUL97gfVkiMVA"
+			]
+		}
+	},
+	"version": 1
+}
