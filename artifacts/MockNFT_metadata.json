@@ -848,11 +848,11 @@
 			]
 		},
 		"Smart Contracts/MockNFT.sol": {
-			"keccak256": "0x848e9b00be6c2ae57db0334cf381868a07ec9398923e0e62ac3b5555e78cb038",
+			"keccak256": "0xff739b352f210dbd5d4ae8f398fa90d4353fb7d0f53aab1546d5ef5cdf2f5e26",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d6dfb8aba01ed3cd44071cf1a584bdbd31ac4705ae8ebe36de9c9323a3546632",
-				"dweb:/ipfs/QmXRzuqZMVdusZpGBLnShfzU1HPSMezdMDuZavMv88ZNDb"
+				"bzz-raw://7d8c777adee141c0eb4fb2fd95cd96a33a9d6282224e212cbde8dc908ae16a58",
+				"dweb:/ipfs/QmYrbtVDjYRx6kij5p8TbqQjrdZ5QB6CppSD5NMMF9ENLM"
 			]
 		}
 	},

@@ -1331,11 +1331,11 @@
 			]
 		},
 		"Smart Contracts/29_NFTFractionalOwnership.sol": {
-			"keccak256": "0x16fd3fc82408ccf5ab2abbf514eb9fcdea5e6901e169ce8d8a2fa6ca7d4d0644",
+			"keccak256": "0xa47a234c69cc7abffe0efecc91e2cce9ebc151cbb70e502a0a69125854155232",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c541b1565d564c86a04daecdd2df28c6da593df1c2d9ce48930f8e0a9863ea3e",
-				"dweb:/ipfs/QmT1CuybrfWxqEm6NsvQUQYLKyt8mdG1yNuPvADXXZashr"
+				"bzz-raw://74c224da61f485b9f02c199a5f1f882888cbcdec97041464bab59580a702e9b2",
+				"dweb:/ipfs/QmP46PYAJqTWipuF4uKdAovSKCUYX4ZbeuS4HnC9wN3BWc"
 			]
 		}
 	},

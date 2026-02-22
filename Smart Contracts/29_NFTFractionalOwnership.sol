@@ -131,7 +131,7 @@ contract FractionalNFTVault is ERC20Permit, ERC20Burnable, ReentrancyGuard {
     */
     function startBuyout(uint256 pricePerShare, uint64 durationSec) external nonReentrant {
         if (buyout.active) revert BuyoutAlreadyActive();
-        if (durationSec < 1 hours || durationSec > 30 days) revert InvalidDuration();
+        if (durationSec < 300 seconds || durationSec > 30 days) revert InvalidDuration();
         require(pricePerShare > 0, "price=0");
 
         uint256 supply = totalSupply();
